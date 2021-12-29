@@ -1,0 +1,31 @@
+
+.base__button{
+    border-style: none ;
+    background-color: #b5b5b5 ;
+    color : #333 ;
+    padding : 5px 30px ;
+    letter-spacing: 1px ;
+    border-radius: 30px ;
+    cursor : pointer ;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .facebook__Buton{
+        margin-top: 20px;
+        display: block;
+    }
+}
+@media (min-width : 481px) and (max-width: 768px) {
+    .facebook__Buton{
+        margin-top: 20px;
+        display: block;
+    }
+}
+@media (min-width : 769px) and (max-width: 1024px) {
+     
+}
+@media (min-width : 1025px) and (max-width: 1200px) {
+    
+}  

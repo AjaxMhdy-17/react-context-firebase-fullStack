@@ -1,0 +1,32 @@
+
+.card{
+    position: relative;
+    z-index: 5;
+}
+
+.card:before{
+    position: absolute;
+    content: '';
+    width : 100% ;
+    height : 100%;
+    background : #00000073 ;
+    display: block;
+    /* z-index: 1; */
+}
+ .card:hover .card:before{
+    display: block;
+} 
+
+.product__detail__button{
+  
+}
+
+.product__detail__button a{
+    color : #222 ;
+    text-decoration: none;
+}
+
+.card:hover .product__detail__button{
+    transform: translate(-50%, -50%);
+    display: block;
+}
